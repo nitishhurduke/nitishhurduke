@@ -1,7 +1,8 @@
 ﻿<!-- Publish this file as README.md at the root of your GitHub profile repository.
      Include all seven referenced SVGs from the assets folder at the same relative paths.
-     Artwork is self-contained: no external fonts, scripts, or image services.
-     Animations respect prefers-reduced-motion. Essential details remain in text.
+     SVG artwork is self-contained; the greeting GIF is hosted externally.
+     SVG animations respect prefers-reduced-motion; the GIF does not.
+     Essential details remain in text.
      Project graphics are conceptual, not deployment diagrams or live telemetry.
      The sorting animation illustrates one swap, not a complete sort or benchmark. -->
 
@@ -9,7 +10,7 @@
 
 <div align="center">
 
-<h1>Hi, I'm Nitish.</h1>
+<h1>Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" height="32" alt="Waving hand" />, I'm Nitish.</h1>
 
 <p><strong>Senior Software Specialist at PTC</strong></p>
 
@@ -20,7 +21,7 @@
 <p>
   <a href="https://portfolio.nitishhurduke.workers.dev/"><strong>Explore my work</strong></a>
   &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/nitishhurduke/"><strong>Connect on LinkedIn</strong></a>
+  <a href="https://www.linkedin.com/in/nitishhurduke/"><strong>Connect on LinkedIn  </strong> </a>
   &nbsp; / &nbsp;
   <a href="mailto:nitishhurduke@gmail.com"><strong>Build with me</strong></a>
 </p>
@@ -43,7 +44,7 @@ I bring **end-to-end ownership, system design, and mentoring** to my broader eng
 
 ## Selected professional work
 
-### 01 / Connect AI clients to enterprise Windchill data
+### 01 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> Connect AI clients to enterprise Windchill data
 
 **MCP server development · ProdMgmt & DocMgmt**  
 PTC · Windchill
@@ -61,7 +62,7 @@ Contributed to building **Model Context Protocol (MCP) server capabilities for t
 
 The work connects agent-facing tools with enterprise data access, including the verification checks and explicit error responses needed around those requests.
 
-### 02 / AI agents for enterprise Change Management
+### 02 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> AI agents for enterprise Change Management
 
 **Change AI Extension · Windchill PLM R&D**  
 PTC · Senior Software Specialist · November 2024–present
@@ -75,7 +76,7 @@ Contributed to building **two of the extension's three AI agents**:
 
 **Engineering focus:** applying AI to report drafting and template-based validation within enterprise Change Management.
 
-### 03 / Connect enterprise data to the user experience
+### 03 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> Connect enterprise data to the user experience
 
 **Windchill Navigate Extension · ThingWorx**  
 PTC · Software Specialist · May 2022–November 2024
@@ -86,9 +87,9 @@ Worked on the **Windchill Navigate Extension**, built on **ThingWorx**. Navigate
 
 **Engineering focus:** connecting enterprise platform capabilities with a customizable user experience.
 
-### 04 / Document verification in a finance application
+### 04 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> Document verification in a finance application
 
-**Furniture financing · Client project**  
+**CDL Lakshmi Finance - Furniture financing · Client project**  
 IP Tech System · Software Engineer · January 2019–May 2022
 
 ![Conceptual document-verification workflow: a clerk reviews KYC and loan documents, supported by government API information for KYC validation. Only completed verification with all documents approved moves to disbursement. States: pending, in progress, complete, failed.](./assets/document-verification.svg)
@@ -107,7 +108,7 @@ Responsible for the **Document Verification module** in a client finance applica
 
 ### Make the invisible visible
 
-**Sorting Algorithm Visualizer** · Interactive demo
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> **Sorting Algorithm Visualizer** · Interactive demo
 
 [![Illustrative sorting animation: compare 8 and 3 in the array 2, 8, 3, 6, then swap to 2, 3, 8, 6. This is one step, not a complete sort. Open the portfolio for the interactive app.](./assets/sorting-visualizer.svg)](https://portfolio.nitishhurduke.workers.dev/)
 
@@ -178,4 +179,5 @@ I'm open to collaboration, technical conversations, and opportunities where I ca
 
 **Send me the problem you're solving, where you're stuck, and what you'd like to build together.**
 
-[**Connect on LinkedIn →**](https://www.linkedin.com/in/nitishhurduke/) &nbsp; [**Email me →**](mailto:nitishhurduke@gmail.com) &nbsp; [Read my writing](https://medium.com/@nitishhurduke)
+
+[**Connect on LinkedIn  →**](https://www.linkedin.com/in/nitishhurduke/) &nbsp; [**Email me →**](mailto:nitishhurduke@gmail.com) &nbsp; [Read my writing](https://medium.com/@nitishhurduke)
