@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="376" viewBox="0 0 1120 376" role="img" aria-labelledby="title description">
+  <title id="title">From an AI request to Windchill domain data</title>
+  <desc id="description">Conceptual illustration, not a deployment diagram. MCP-compatible clients such as Claude and GitHub Copilot in VS Code connect through MCP tools to Windchill ProdMgmt and DocMgmt data. Contributions include 12 tools, user verification, license and credential checks, and JSON-RPC error responses. Animated lines illustrate requests and responses, not live traffic.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#19152D"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#0891B2" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+      .request { stroke-dasharray: 10 54; animation: request 4s linear infinite; }
+      .response { stroke-dasharray: 10 54; animation: response 5s linear infinite; }
+      .ring { stroke-dasharray: 60 940; animation: orbit 14s linear infinite; }
+      @keyframes request { to { stroke-dashoffset: -128; } }
+      @keyframes response { to { stroke-dashoffset: 128; } }
+      @keyframes orbit { to { stroke-dashoffset: -1000; } }
+      @media (prefers-reduced-motion: reduce) {
+        .request, .response, .ring { animation: none; }
+      }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1118" height="374" rx="20" fill="url(#background)" stroke="#30344F"/>
+  <ellipse cx="560" cy="180" rx="270" ry="180" fill="url(#glow)"/>
+  <text class="mono" x="32" y="36" font-size="12" letter-spacing="2" fill="#67E8F9">ENGINEERING SPOTLIGHT / MCP</text>
+  <text x="32" y="79" font-size="30" font-weight="700" fill="#F1F5F9">From an AI request to enterprise data.</text>
+  <text class="mono" x="1088" y="35" text-anchor="end" font-size="10" letter-spacing="1" fill="#AEB8CD">CONCEPTUAL FLOW / NOT LIVE TRAFFIC</text>
+
+  <path d="M310 172H430M690 172H810M310 206H430M690 206H810" fill="none" stroke="#35435E" stroke-width="2"/>
+  <path class="request" d="M310 172H430M690 172H810" fill="none" stroke="#67E8F9" stroke-width="3"/>
+  <path class="response" d="M310 206H430M690 206H810" fill="none" stroke="#C4B5FD" stroke-width="3"/>
+  <path d="M416 167L423 172L416 177M796 167L803 172L796 177" fill="none" stroke="#67E8F9" stroke-width="1.5"/>
+  <path d="M324 201L317 206L324 211M704 201L697 206L704 211" fill="none" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text class="mono" x="370" y="151" text-anchor="middle" font-size="11" fill="#A9C6D5">REQUEST</text>
+  <text class="mono" x="750" y="230" text-anchor="middle" font-size="11" fill="#BFB3D5">RESPONSE</text>
+
+  <rect x="32" y="120" width="278" height="134" rx="14" fill="#111E2E" stroke="#38566B"/>
+  <text class="mono" x="52" y="148" font-size="11" letter-spacing="1.5" fill="#9EC5D6">MCP-COMPATIBLE CLIENTS</text>
+  <text x="52" y="184" font-size="25" font-weight="650" fill="#E7F7FC">Claude / Copilot</text>
+  <text x="52" y="216" font-size="16" fill="#BAC8D9">Including Copilot in VS Code</text>
+
+  <rect x="430" y="120" width="260" height="134" rx="14" fill="#131F32" stroke="#477189"/>
+  <rect class="ring" x="430" y="120" width="260" height="134" rx="14" pathLength="1000" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <text class="mono" x="450" y="148" font-size="11" letter-spacing="1.5" fill="#9EC5D6">MCP SERVER CAPABILITIES</text>
+  <text x="450" y="184" font-size="27" font-weight="700" fill="#67E8F9">12 tools</text>
+  <text x="450" y="216" font-size="16" fill="#BAC8D9">Implemented across 2 domains</text>
+
+  <rect x="810" y="120" width="278" height="134" rx="14" fill="#211A32" stroke="#5C477B"/>
+  <text class="mono" x="830" y="148" font-size="11" letter-spacing="1.5" fill="#C6B9DD">WINDCHILL DATA</text>
+  <text x="830" y="184" font-size="23" font-weight="650" fill="#F2EBFF">ProdMgmt + DocMgmt</text>
+  <text x="830" y="216" font-size="16" fill="#C4BED5">Domain-specific retrieval</text>
+
+  <path d="M32 282H1088" stroke="#30344F"/>
+  <text class="mono" x="32" y="312" font-size="10" letter-spacing="1.3" fill="#AEB8CD">MY IMPLEMENTATION CONTRIBUTIONS</text>
+  <circle cx="37" cy="341" r="3" fill="#67E8F9"/>
+  <text x="49" y="346" font-size="16" fill="#D6E4ED">User verification</text>
+  <circle cx="347" cy="341" r="3" fill="#A5B4FC"/>
+  <text x="359" y="346" font-size="16" fill="#D6E4ED">License + credential checks</text>
+  <circle cx="757" cy="341" r="3" fill="#C4B5FD"/>
+  <text x="769" y="346" font-size="16" fill="#D6E4ED">JSON-RPC error responses</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460" role="img" aria-labelledby="title description">
+  <title id="title">Change AI: from a described problem to a structured report and validation</title>
+  <desc id="description">Conceptual workflow. An end user describes a problem to the PR Draft Agent, which generates a formatted Windchill Problem Report. The PR Validator Agent checks drafted or existing reports against a Change Admin template and provides completeness and potential-duplicate analysis. Duplicate indications are not confirmed duplicates. Nitish contributed to both agents.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0B1220"/><stop offset="1" stop-color="#19152D"/>
+    </linearGradient>
+    <linearGradient id="accent"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#C4B5FD"/></linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+      .flow { stroke-dasharray: 9 40; animation: flow 5s linear infinite; }
+      .scan { stroke-dasharray: 50 950; animation: scan 14s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -98; } }
+      @keyframes scan { to { stroke-dashoffset: -1000; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .scan { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1118" height="458" rx="20" fill="url(#background)" stroke="#30344F"/>
+  <text class="mono" x="32" y="36" font-size="12" letter-spacing="2" fill="#67E8F9">CHANGE AI / PROBLEM REPORTS</text>
+  <text class="mono" x="1088" y="35" text-anchor="end" font-size="10" letter-spacing="1" fill="#AEB8CD">CONCEPTUAL WORKFLOW</text>
+  <text x="32" y="79" font-size="30" font-weight="700" fill="#F1F5F9">Describe the problem. Structure it. Check it.</text>
+
+  <path d="M332 166H410M710 166H788M332 328H410M710 328H788M938 218V241H560V264" fill="none" stroke="#35435E" stroke-width="2"/>
+  <path class="flow" d="M332 166H410M710 166H788M332 328H410M710 328H788M938 218V241H560V264" fill="none" stroke="#67E8F9" stroke-width="3"/>
+  <path d="M398 161L405 166L398 171M776 161L783 166L776 171M398 323L405 328L398 333M776 323L783 328L776 333M555 251L560 258L565 251" fill="none" stroke="#A5B4FC" stroke-width="1.5"/>
+
+  <rect x="32" y="110" width="300" height="108" rx="14" fill="#111E2E" stroke="#38566B"/>
+  <text class="mono" x="52" y="137" font-size="11" letter-spacing="1.5" fill="#9EC5D6">END USER / FACTORY WORKER</text>
+  <text x="52" y="171" font-size="24" font-weight="650" fill="#E7F7FC">Describe the problem</text>
+  <text x="52" y="198" font-size="16" fill="#BAC8D9">Start with the user's own words</text>
+
+  <rect x="410" y="110" width="300" height="108" rx="14" fill="#131F32" stroke="#477189"/>
+  <rect class="scan" x="410" y="110" width="300" height="108" rx="14" pathLength="1000" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <text class="mono" x="430" y="137" font-size="11" letter-spacing="1.5" fill="#9EC5D6">AGENT CONTRIBUTION / 01</text>
+  <text x="430" y="171" font-size="25" font-weight="650" fill="#67E8F9">PR Draft Agent</text>
+  <text x="430" y="198" font-size="16" fill="#BAC8D9">Generate a formatted report</text>
+
+  <rect x="788" y="110" width="300" height="108" rx="14" fill="#211A32" stroke="#5C477B"/>
+  <text class="mono" x="808" y="137" font-size="11" letter-spacing="1.5" fill="#C6B9DD">WINDCHILL</text>
+  <text x="808" y="171" font-size="24" font-weight="650" fill="#F2EBFF">Problem Report</text>
+  <text x="808" y="198" font-size="16" fill="#C4BED5">Structured from the description</text>
+
+  <rect x="32" y="264" width="300" height="130" rx="14" fill="#111E2E" stroke="#38566B"/>
+  <text class="mono" x="52" y="292" font-size="11" letter-spacing="1.5" fill="#9EC5D6">ALSO ACCEPTS</text>
+  <text x="52" y="327" font-size="24" font-weight="650" fill="#E7F7FC">Existing reports</text>
+  <text x="52" y="358" font-size="16" fill="#BAC8D9">From the Windchill instance</text>
+
+  <rect x="410" y="264" width="300" height="130" rx="14" fill="#131F32" stroke="#477189"/>
+  <text class="mono" x="430" y="292" font-size="11" letter-spacing="1.5" fill="#9EC5D6">AGENT CONTRIBUTION / 02</text>
+  <text x="430" y="327" font-size="25" font-weight="650" fill="#67E8F9">PR Validator Agent</text>
+  <text x="430" y="358" font-size="16" fill="#BAC8D9">Check against the template</text>
+  <text x="430" y="381" font-size="14" fill="#BAC8D9">Configured by the Change Admin</text>
+
+  <rect x="788" y="264" width="300" height="130" rx="14" fill="#211A32" stroke="#5C477B"/>
+  <text class="mono" x="808" y="292" font-size="11" letter-spacing="1.5" fill="#C6B9DD">VALIDATION OUTPUT</text>
+  <text x="808" y="327" font-size="22" font-weight="650" fill="#F2EBFF">Completeness analysis</text>
+  <text x="808" y="358" font-size="20" fill="#C4B5FD">Potential duplicates</text>
+  <text x="808" y="381" font-size="14" fill="#C4BED5">Indications, not confirmed matches</text>
+  <path d="M32 417H1088" stroke="#30344F"/>
+  <text x="32" y="444" font-size="15" fill="#C4BED5">My contribution: helped build 2 of the 3 agents in the Change AI Extension.</text>
+</svg>

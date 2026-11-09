@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="370" viewBox="0 0 1120 370" role="img" aria-labelledby="title description">
+  <title id="title">Windchill Navigate: reusable components and APIs for a lightweight experience</title>
+  <desc id="description">Conceptual capability illustration, not a deployment diagram. Reusable components and Windchill APIs enable custom Navigate applications built on ThingWorx to interact with Windchill data and functionality. Nitish contributed to the Navigate Extension; this diagram does not imply sole ownership of the platform.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#19152D"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#C4B5FD"/></linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+      .flow { stroke-dasharray: 10 54; animation: flow 5s linear infinite; }
+      .return { animation-direction: reverse; stroke: #C4B5FD; }
+      .tile { animation: tile 9s ease-in-out infinite; }
+      .second { animation-delay: -3s; }
+      .third { animation-delay: -6s; }
+      @keyframes flow { to { stroke-dashoffset: -128; } }
+      @keyframes tile { 0%, 100% { stroke: #38566B; } 50% { stroke: #67E8F9; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .tile { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1118" height="368" rx="20" fill="url(#background)" stroke="#30344F"/>
+  <text class="mono" x="32" y="36" font-size="12" letter-spacing="2" fill="#67E8F9">WINDCHILL NAVIGATE / THINGWORX</text>
+  <text class="mono" x="1088" y="35" text-anchor="end" font-size="10" letter-spacing="1" fill="#AEB8CD">CONCEPTUAL CAPABILITIES</text>
+  <text x="32" y="79" font-size="30" font-weight="700" fill="#F1F5F9">Enterprise capabilities. A lighter experience.</text>
+
+  <path d="M322 197H415M705 181H798M705 215H798" stroke="#35435E" stroke-width="2"/>
+  <path class="flow" d="M322 197H415M705 181H798" fill="none" stroke="#67E8F9" stroke-width="3"/>
+  <path class="flow return" d="M705 215H798" fill="none" stroke-width="3"/>
+  <path d="M403 192L410 197L403 202M786 176L793 181L786 186M717 210L710 215L717 220" fill="none" stroke="#A5B4FC" stroke-width="1.5"/>
+
+  <rect x="32" y="118" width="290" height="160" rx="14" fill="#111E2E" stroke="#38566B"/>
+  <text class="mono" x="52" y="147" font-size="11" letter-spacing="1.5" fill="#9EC5D6">BUILDING BLOCKS</text>
+  <rect class="tile" x="52" y="165" width="56" height="30" rx="6" fill="#172C3C" stroke="#38566B"/>
+  <rect class="tile second" x="116" y="165" width="56" height="30" rx="6" fill="#172C3C" stroke="#38566B"/>
+  <rect class="tile third" x="180" y="165" width="56" height="30" rx="6" fill="#172C3C" stroke="#38566B"/>
+  <path d="M64 180H96M128 180H160M192 180H224" stroke="#67E8F9" stroke-opacity=".6"/>
+  <text x="52" y="228" font-size="22" font-weight="650" fill="#E7F7FC">Reusable components</text>
+  <text x="52" y="255" font-size="18" fill="#BAC8D9">+ Windchill APIs</text>
+
+  <rect x="415" y="118" width="290" height="160" rx="14" fill="#131F32" stroke="#477189"/>
+  <text class="mono" x="435" y="147" font-size="11" letter-spacing="1.5" fill="#9EC5D6">CUSTOMIZE THE EXPERIENCE</text>
+  <text x="435" y="187" font-size="24" font-weight="650" fill="#67E8F9">Navigate apps</text>
+  <text x="435" y="223" font-size="17" fill="#BAC8D9">Built on ThingWorx</text>
+  <text x="435" y="250" font-size="17" fill="#BAC8D9">Lightweight user experience</text>
+
+  <rect x="798" y="118" width="290" height="160" rx="14" fill="#211A32" stroke="#5C477B"/>
+  <text class="mono" x="818" y="147" font-size="11" letter-spacing="1.5" fill="#C6B9DD">ENTERPRISE PLM</text>
+  <text x="818" y="187" font-size="27" font-weight="650" fill="#F2EBFF">Windchill</text>
+  <text x="818" y="223" font-size="17" fill="#C4BED5">Product data</text>
+  <text x="818" y="250" font-size="17" fill="#C4BED5">+ Windchill functionality</text>
+  <path d="M32 306H1088" stroke="#30344F"/>
+  <text x="32" y="340" font-size="16" fill="#C4BED5">My work: contributed to the Navigate Extension connecting Windchill data with the user experience.</text>
+</svg>

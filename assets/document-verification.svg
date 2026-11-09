@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480" role="img" aria-labelledby="title description">
+  <title id="title">Document verification: API-assisted checks, human approval</title>
+  <desc id="description">Conceptual furniture-financing workflow. A clerk personally reviews KYC and loan documents, supported by government API information for KYC validation. Verification statuses are pending, in progress, complete, and failed. Only after all documents are approved and verification is complete does the process move to disbursement. Animation represents the workflow, not live approvals or actual personal data.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#19152D"/></linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+      .flow { stroke-dasharray: 9 40; animation: flow 5s linear infinite; }
+      .support { animation-direction: reverse; }
+      .review { animation: review 8s ease-in-out infinite; }
+      @keyframes flow { to { stroke-dashoffset: -98; } }
+      @keyframes review { 0%, 100% { stroke: #477189; } 50% { stroke: #67E8F9; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .review { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1118" height="478" rx="20" fill="url(#background)" stroke="#30344F"/>
+  <text class="mono" x="32" y="36" font-size="12" letter-spacing="2" fill="#67E8F9">FINANCE / DOCUMENT VERIFICATION</text>
+  <text class="mono" x="1088" y="35" text-anchor="end" font-size="10" letter-spacing="1" fill="#AEB8CD">CONCEPTUAL WORKFLOW / HUMAN APPROVAL</text>
+  <text x="32" y="79" font-size="30" font-weight="700" fill="#F1F5F9">API-assisted checks. Human-reviewed decisions.</text>
+
+  <path d="M322 190H415M705 190H798M560 270V316" fill="none" stroke="#35435E" stroke-width="2"/>
+  <path class="flow" d="M322 190H415" fill="none" stroke="#67E8F9" stroke-width="3"/>
+  <path class="flow support" d="M560 270V316" fill="none" stroke="#C4B5FD" stroke-width="3"/>
+  <path d="M403 185L410 190L403 195M786 185L793 190L786 195M555 282L560 275L565 282" fill="none" stroke="#A5B4FC" stroke-width="1.5"/>
+  <text class="mono" x="751" y="164" text-anchor="middle" font-size="10" fill="#C4BED5">ONLY WHEN</text>
+  <text class="mono" x="751" y="218" text-anchor="middle" font-size="10" fill="#C4BED5">ALL APPROVED</text>
+
+  <rect x="32" y="118" width="290" height="152" rx="14" fill="#111E2E" stroke="#38566B"/>
+  <text class="mono" x="52" y="147" font-size="11" letter-spacing="1.5" fill="#9EC5D6">LOAN DOCUMENTS</text>
+  <text x="52" y="184" font-size="24" font-weight="650" fill="#E7F7FC">KYC documents</text>
+  <text x="52" y="220" font-size="16" fill="#BAC8D9">Loan sanction letters</text>
+  <text x="52" y="246" font-size="16" fill="#BAC8D9">Disbursement letters</text>
+
+  <rect class="review" x="415" y="118" width="290" height="152" rx="14" fill="#131F32" stroke="#477189" stroke-width="2"/>
+  <text class="mono" x="435" y="147" font-size="11" letter-spacing="1.5" fill="#9EC5D6">CLERK ROLE / HUMAN REVIEW</text>
+  <text x="435" y="184" font-size="24" font-weight="650" fill="#67E8F9">Verify each document</text>
+  <text x="435" y="220" font-size="16" fill="#BAC8D9">Personal review + API information</text>
+  <text x="435" y="246" font-size="16" fill="#BAC8D9">Approval remains with the clerk</text>
+
+  <rect x="798" y="118" width="290" height="152" rx="14" fill="#211A32" stroke="#5C477B"/>
+  <text class="mono" x="818" y="147" font-size="11" letter-spacing="1.5" fill="#C6B9DD">NEXT MODULE</text>
+  <text x="818" y="184" font-size="26" font-weight="650" fill="#F2EBFF">Disbursement</text>
+  <text x="818" y="220" font-size="16" fill="#C4BED5">After verification is complete</text>
+  <text x="818" y="246" font-size="16" fill="#C4BED5">and all documents are approved</text>
+
+  <rect x="415" y="316" width="290" height="62" rx="12" fill="#211A32" stroke="#5C477B"/>
+  <text x="560" y="342" text-anchor="middle" font-size="18" font-weight="650" fill="#C4B5FD">Government APIs</text>
+  <text x="560" y="365" text-anchor="middle" font-size="14" fill="#C4BED5">Information for KYC validation</text>
+  <text x="32" y="331" font-size="16" fill="#C4BED5">My responsibility:</text>
+  <text x="32" y="357" font-size="18" font-weight="650" fill="#F1F5F9">Document Verification module</text>
+  <path d="M32 403H1088" stroke="#30344F"/>
+  <text class="mono" x="32" y="445" font-size="11" letter-spacing="1" fill="#AEB8CD">VERIFICATION STATES</text>
+  <text x="252" y="445" font-size="17" fill="#D6E4ED">Pending</text>
+  <text x="440" y="445" font-size="17" fill="#67E8F9">In progress</text>
+  <text x="658" y="445" font-size="17" fill="#C4B5FD">Complete</text>
+  <text x="876" y="445" font-size="17" fill="#F0B7C7">Failed</text>
+</svg>
