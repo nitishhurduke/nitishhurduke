@@ -13,7 +13,7 @@
 
 <p><strong>Senior Software Specialist at PTC</strong></p>
 
-<p><strong>7.5 years building web applications.<br>Java depth. Angular craftsmanship. End-to-end ownership.</strong></p>
+<p><strong>7.5+ years building web applications.<br>Java depth. Angular craftsmanship. End-to-end ownership.</strong></p>
 
 <p>Enterprise experience: <strong>4.5 years in PTC Windchill development</strong> · Product Lifecycle Management (PLM)</p>
 
@@ -27,7 +27,7 @@
 
 </div>
 
-![Experience and contributions: 7.5 years in web development; 4.5 years in Windchill; 12 MCP tools implemented; contributed to 2 of 3 Change AI Extension agents.](./assets/engineering-highlights.svg)
+![Experience and contributions: 7.5+ years in web development; 4.5 years in Windchill; 12 MCP tools implemented; contributed to 2 of 3 Change AI Extension agents.](./assets/engineering-highlights.svg)
 
 ---
 
