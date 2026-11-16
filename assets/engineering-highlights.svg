@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="176" viewBox="0 0 1120 176" role="img" aria-labelledby="title description">
   <title id="title">Engineering experience and contributions</title>
-  <desc id="description">7.5 years in web development. 4.5 years in Windchill development. Implemented 12 MCP tools across two domains. Contributed to two of the three Change AI Extension agents.</desc>
+  <desc id="description">7.5+ years in web development. 4.5 years in Windchill development. Owns user and license validation across three MCP servers containing 11 registered tools. Implemented the shared LLM communication layer for all three Change AI Extension agents.</desc>
   <defs>
     <linearGradient id="card" x2="1" y2="1">
       <stop stop-color="#0D1424"/>
@@ -100,35 +100,35 @@
   <g transform="translate(568 0)">
     <rect x="1" y="1" width="267" height="174" rx="16" fill="url(#card)" stroke="#30344F"/>
     <path class="accent third" d="M24 2H244" stroke="url(#line)" stroke-width="2"/>
-    <text x="24" y="35" class="label">MCP TOOLS IMPLEMENTED</text>
-    <text x="22" y="101" font-size="54" font-weight="750" fill="#67E8F9"><tspan class="counter-final">12</tspan></text>
+    <text x="24" y="35" class="label">REGISTERED MCP TOOLS</text>
+    <text x="22" y="101" font-size="54" font-weight="750" fill="#67E8F9"><tspan class="counter-final">11</tspan></text>
     <g class="counter-window" aria-hidden="true" clip-path="url(#counter-window)" fill="#67E8F9">
       <g transform="translate(22 47)">
         <g style="--counter-offset: -64px" class="counter-roll counter-tens">
           <use href="#digit-strip"/>
         </g>
         <g transform="translate(30 0)">
-          <g style="--counter-offset: -768px" class="counter-roll">
+          <g style="--counter-offset: -704px" class="counter-roll">
             <use href="#digit-strip"/>
             <use href="#digit-strip" y="640"/>
           </g>
         </g>
       </g>
     </g>
-    <text x="24" y="142" font-size="16" fill="#B5BDCF">Across two domains</text>
+    <text x="24" y="142" font-size="16" fill="#B5BDCF">3 servers / validation ownership</text>
   </g>
   <g transform="translate(852 0)">
     <rect x="1" y="1" width="267" height="174" rx="16" fill="url(#card)" stroke="#30344F"/>
     <path class="accent fourth" d="M24 2H244" stroke="url(#line)" stroke-width="2"/>
-    <text x="24" y="35" class="label">AI AGENT CONTRIBUTIONS</text>
-    <text x="22" y="101" font-size="54" font-weight="750" fill="#C4B5FD"><tspan class="counter-final">2</tspan><tspan font-size="28" font-weight="400" fill="#B5BDCF"> / 3</tspan></text>
+    <text x="24" y="35" class="label">AGENTS USING LLM LAYER</text>
+    <text x="22" y="101" font-size="54" font-weight="750" fill="#C4B5FD"><tspan class="counter-final">3</tspan><tspan font-size="28" font-weight="400" fill="#B5BDCF"> / 3</tspan></text>
     <g class="counter-window" aria-hidden="true" clip-path="url(#counter-window)" fill="#C4B5FD">
       <g transform="translate(22 47)">
-        <g style="--counter-offset: -128px" class="counter-roll">
+        <g style="--counter-offset: -192px" class="counter-roll">
           <use href="#digit-strip"/>
         </g>
       </g>
     </g>
-    <text x="24" y="142" font-size="16" fill="#B5BDCF">Change AI Extension</text>
+    <text x="24" y="142" font-size="16" fill="#B5BDCF">Shared layer / production release</text>
   </g>
 </svg>

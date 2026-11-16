@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480" role="img" aria-labelledby="title description">
   <title id="title">Nitish Hurduke - Strong backends. Thoughtful interfaces.</title>
-  <desc id="description">7.5 years in web application development. An animated engineering diagram connects Angular interfaces, Spring Boot services, and PostgreSQL data. Building agentic applications.</desc>
+  <desc id="description">Nitish Hurduke, senior software developer based in Pune, India, with 7.5+ years of experience. Backend architecture, enterprise domain expertise, and production AI integration. Seeking senior development roles with architecture ownership and AI engineering responsibilities.</desc>
   <defs>
     <linearGradient id="background" x2="1" y2="1">
       <stop stop-color="#080D1A"/>
@@ -46,13 +46,13 @@
   <g transform="translate(48 52)">
     <path d="M11 0L1 10L11 20M29 0L39 10L29 20M23 -3L17 23" fill="none" stroke="#67E8F9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="56" y="17" font-size="21" font-weight="650" fill="#F1F5F9">Nitish Hurduke</text>
-    <text class="mono" x="0" y="73" font-size="12" letter-spacing="2.3" fill="#B5BDCF">WEB APPLICATION DEVELOPER</text>
+    <text class="mono" x="0" y="73" font-size="12" letter-spacing="2.3" fill="#B5BDCF">SENIOR SOFTWARE DEVELOPER</text>
     <text x="-3" y="151" font-size="64" font-weight="750" letter-spacing="-2.5" fill="#F8FAFC">Strong backends.</text>
     <text x="-3" y="224" font-size="60" font-weight="750" letter-spacing="-2.5" fill="url(#accent)">Thoughtful interfaces.</text>
-    <text x="0" y="268" font-size="18" fill="#B5BDCF">From the data model to the detail users notice.</text>
+    <text x="0" y="268" font-size="18" fill="#B5BDCF">Backend architecture. Enterprise AI. Full-stack delivery.</text>
     <rect x="0" y="299" width="312" height="35" rx="17.5" fill="#122636" stroke="#24505E"/>
     <circle cx="18" cy="316.5" r="3.5" fill="#67E8F9"/>
-    <text class="mono" x="32" y="321" font-size="12" fill="#B9EFF5">BUILDING / AGENTIC APPLICATIONS</text>
+    <text class="mono" x="32" y="321" font-size="12" fill="#B9EFF5">PRODUCTION / AI INTEGRATION</text>
   </g>
 
   <g transform="translate(792 81)">
@@ -84,9 +84,9 @@
   </g>
 
   <path d="M48 418H1072" stroke="#30344F"/>
-  <text class="mono" x="48" y="452" font-size="12" letter-spacing="1" fill="#D1D8E8">7.5 YEARS / WEB DEVELOPMENT</text>
+  <text class="mono" x="48" y="452" font-size="12" letter-spacing="1" fill="#D1D8E8">7.5+ YEARS / WEB DEVELOPMENT</text>
   <text class="mono" x="454" y="452" font-size="12" letter-spacing="1" fill="#D1D8E8">JAVA + ANGULAR</text>
-  <text class="mono" x="792" y="452" font-size="12" letter-spacing="1" fill="#D1D8E8">OPEN TO COLLABORATION</text>
+  <text class="mono" x="792" y="452" font-size="12" letter-spacing="1" fill="#D1D8E8">PUNE, INDIA / SENIOR ROLES</text>
   <circle class="signal" cx="1059" cy="448" r="7" fill="#67E8F9" opacity=".6" filter="url(#glow)"/>
   <circle cx="1059" cy="448" r="2.5" fill="#A5F3FC"/>
 </svg>

@@ -14,7 +14,7 @@
 
 <p><strong>Senior Software Specialist at PTC</strong></p>
 
-<p><strong>7.5+ years building web applications.<br>Java depth. Angular craftsmanship. End-to-end ownership.</strong></p>
+<p><strong>7.5+ years building web applications.<br>Backend architecture. Enterprise AI integration. Full-stack delivery.</strong></p>
 
 <p>Enterprise experience: <strong>4.5 years in PTC Windchill development</strong> · Product Lifecycle Management (PLM)</p>
 
@@ -28,7 +28,7 @@
 
 </div>
 
-![Experience and contributions: 7.5+ years in web development; 4.5 years in Windchill; 12 MCP tools implemented; contributed to 2 of 3 Change AI Extension agents.](./assets/engineering-highlights.svg)
+![Experience and contributions: 7.5+ years in web development; 4.5 years in Windchill; user and license validation ownership for 3 MCP servers with 11 registered tools; a shared LLM layer serving all 3 Change AI agents.](./assets/engineering-highlights.svg)
 
 ---
 
@@ -40,41 +40,57 @@ My core is **Java and Spring Boot**, paired with **Angular and PostgreSQL**. I c
 
 At **PTC**, my work spans **[Windchill](https://www.ptc.com/en/products/windchill) PLM R&D**, **Windchill Navigate on ThingWorx**, **AI agents for Change Management**, and **MCP servers that connect AI clients to Windchill data**.
 
-I bring **end-to-end ownership, system design, and mentoring** to my broader engineering work. I'm also building **agentic applications with Spring Boot**, connecting my Java background with practical AI integration.
+I bring **end-to-end ownership, system design, and technical leadership** to my broader engineering work. My production AI contributions include a **shared LLM communication layer**, **agent benchmarking with MLflow and Databricks**, and **security checks in CI**.
+
+Based in **Pune, Maharashtra, India**, I am targeting **senior software development roles with architecture ownership and AI engineering responsibilities**, with a long-term goal of becoming a software architect.
+
+[**Resume PDF (draft)**](./assets/resume/nitish-hurduke-resume.pdf) · [**Resume content and LaTeX source**](./assets/resume/README.md) · [**GitHub**](https://github.com/nitishhurduke)
 
 ## Selected professional work
 
 ### 01 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> Connect AI clients to enterprise Windchill data
 
-**MCP server development · ProdMgmt & DocMgmt**  
+**MCP server development · Parts, Documents & Change Management**  
 PTC · Windchill
 
-![Conceptual MCP flow, not live traffic: Claude and GitHub Copilot connect through MCP tools to Windchill ProdMgmt and DocMgmt data. Contributions include user verification, license and credential checks, and JSON-RPC errors.](./assets/windchill-mcp.svg)
+![Conceptual MCP flow, not live traffic: AI clients connect to Windchill through 3 MCP servers with 11 registered tools: 5 for Parts, 3 for Documents, and 3 for Change Management. Nitish owns periodic user and license validation.](./assets/windchill-mcp.svg)
 
-Contributed to building **Model Context Protocol (MCP) server capabilities for two Windchill domains: ProdMgmt and DocMgmt**. These enable MCP-compatible clients, including **Claude** and **GitHub Copilot in VS Code**, to retrieve domain-specific Windchill data in response to user requests.
+Contribute to **Model Context Protocol (MCP) server capabilities across three Windchill domains**. These enable MCP-compatible clients, including **Claude** and **GitHub Copilot in VS Code**, to retrieve domain-specific Windchill data in response to user requests.
 
-**My implementation contributions:**
+**Current server configuration: 11 registered tools, not 12.** This describes the server scope, not a claim of sole authorship of every tool.
 
-- **12 tools** across the two domains.
-- **User details verification**.
-- **License and credential checks**.
-- **JSON-RPC error responses**.
+| Domain server | Tools | Operations |
+| :------------ | ----: | :--------- |
+| Parts | 5 | Find parts; retrieve parts by identifier; retrieve a BOM; retrieve relationships; find where a part is used |
+| Documents | 3 | Find documents; retrieve documents by identifier; retrieve relationships |
+| Change Management | 3 | Find change objects; retrieve change objects by identifier; retrieve relationships |
 
-The work connects agent-facing tools with enterprise data access, including the verification checks and explicit error responses needed around those requests.
+**My ownership:** implement the user validation process, including periodic checks of user information and license validity across the three MCP servers.
+
+**Implementation stack:** Java 21, Spring Boot, blocking Spring Web MVC, Spring AI, and the official MCP Java SDK, with **Streamable HTTP** transport. The integration uses trusted inbound client requests and **mutual TLS** for plugin-to-Windchill communication. Plugin-management API keys are separate from MCP-client authentication.
 
 ### 02 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> AI agents for enterprise Change Management
 
 **Change AI Extension · Windchill PLM R&D**  
 PTC · Senior Software Specialist · November 2024–present
 
-![Conceptual Change AI workflow: a user describes a problem; the PR Draft Agent generates a formatted Windchill Problem Report. The PR Validator Agent checks drafted or existing reports against a Change Admin template and provides completeness and potential-duplicate analysis.](./assets/change-ai-agents.svg)
+![Production Change AI Extension, shown as a conceptual workflow: draft a Problem Report in a reported 10–30 seconds, then analyze completeness and potential duplicates with human review. Contributions include a shared LLM communication layer for all 3 agents, configuration UI, CI security checks, and benchmark evaluation.](./assets/change-ai-agents.svg)
 
-Contributed to building **two of the extension's three AI agents**:
+Contributed to the **production release** of the Change AI Extension, including the **PR Draft and PR Validator agents**, and implemented a **common LLM communication and response-processing layer used by all three agents**.
 
-- **PR Draft Agent:** turns an end user's problem description—for example, from a factory worker—into a well-formatted **Problem Report (PR)** in Windchill.
-- **PR Validator Agent:** validates agent-drafted and existing Windchill Problem Reports against a **template configured by the Change Admin**, providing **completeness analysis** and **potential-duplicate analysis**. Duplicate indications are not confirmed matches.
+- **PR Draft Agent:** turns an end user's problem description into a formatted **Problem Report (PR)** in a reported **10–30 seconds**. This is an observed duration, not a measured percentage improvement over the previous manual process.
+- **PR Validator Agent:** checks drafted and existing reports against a **Change Admin template** for completeness and compares them with existing reports for potential duplicates. **Human reviewers retain validation responsibility**; AI indications are not treated as confirmed matches.
 
-**Engineering focus:** applying AI to report drafting and template-based validation within enterprise Change Management.
+**My implementation contributions:**
+
+- Investigated **Windchill REST Services (WRS) APIs** against extension business requirements.
+- Implemented the **shared LLM communication and response-processing layer** for all three agents.
+- Built the **LLM configuration UI** using Angular.
+- Integrated **Checkmarx SAST** and **Black Duck dependency security checks** into CI.
+- Implemented **agent benchmark evaluation and usage/behavior reports** using Python, **MLflow**, and **Databricks**.
+- Supported project coordination and **Jira effort tracking**.
+
+**Stack:** Spring Boot, Angular, Python, Gradle, and YAML configuration. Model integrations include GPT and Claude families; Microsoft Foundry is used in the development environment.
 
 ### 03 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="Code" style="width: 1em; height: 1em; vertical-align: -0.15em;" /> Connect enterprise data to the user experience
 
@@ -83,7 +99,7 @@ PTC · Software Specialist · May 2022–November 2024
 
 ![Conceptual Navigate capabilities: reusable components and Windchill APIs enable custom Navigate apps on ThingWorx, connecting users to Windchill data and functionality through a lightweight experience.](./assets/windchill-navigate.svg)
 
-Worked on the **Windchill Navigate Extension**, built on **ThingWorx**. Navigate exposes Windchill functionality through a **lightweight user experience**, with **reusable components and Windchill APIs** for building custom Navigate applications.
+Contributed to the **Windchill Navigate Extension**, built on **ThingWorx**. Navigate exposes Windchill functionality through a **lightweight user experience**, with **reusable components and Windchill APIs** for building custom Navigate applications.
 
 **Engineering focus:** connecting enterprise platform capabilities with a customizable user experience.
 
@@ -94,7 +110,7 @@ IP Tech System · Software Engineer · January 2019–May 2022
 
 ![Conceptual document-verification workflow: a clerk reviews KYC and loan documents, supported by government API information for KYC validation. Only completed verification with all documents approved moves to disbursement. States: pending, in progress, complete, failed.](./assets/document-verification.svg)
 
-Responsible for the **Document Verification module** in a client finance application for purchasing furniture on loan.
+Developed the **Document Verification module** in a client finance application for purchasing furniture on loan.
 
 - Supported **KYC documents, loan sanction letters, disbursement letters**, and other loan-related documents.
 - A **clerk personally reviews and approves documents**; the module fetches information from relevant **government APIs to support KYC validation**.
@@ -157,8 +173,10 @@ A streaming dashboard combining **Angular, RxJS, WebSockets, and custom charts**
 | **Delivery**       | Docker · GitHub                | Reproducible environments and collaborative development |
 | **Enterprise PLM** | PTC Windchill                  | Product lifecycle management application development    |
 | **Integration**    | Windchill Navigate · ThingWorx | Enterprise data access and presentation                 |
-| **Applied AI**     | Change AI Extension            | Contributions to PR Draft and PR Validator agents       |
-| **AI integration** | MCP · JSON-RPC                 | Domain tools, verification checks, and error responses  |
+| **Applied AI**     | Spring Boot · LLM integration   | Shared communication layer across 3 production agents  |
+| **AI evaluation**  | Python · MLflow · Databricks    | Agent benchmarks and usage/behavior reporting           |
+| **AI integration** | Spring AI · MCP · Java SDK     | User and license validation across 3 domain servers     |
+| **Security & CI**  | Checkmarx · Black Duck · Gradle | Static analysis and dependency security checks          |
 | **Exploring**      | Kafka                          | Event-driven systems                                    |
 
 ## How I like to build
@@ -175,9 +193,9 @@ A streaming dashboard combining **Angular, RxJS, WebSockets, and custom charts**
 
 Working on a **Java/Spring Boot backend**, a **polished Angular application**, a **Windchill PLM solution**, or **MCP integrations and agentic workflows**? Those are conversations I'd like to have.
 
-I'm open to collaboration, technical conversations, and opportunities where I can contribute across the application.
+I'm open to senior software development opportunities combining **backend architecture, enterprise systems, and AI engineering**.
 
 **Send me the problem you're solving, where you're stuck, and what you'd like to build together.**
 
 
-[**Connect on LinkedIn  →**](https://www.linkedin.com/in/nitishhurduke/) &nbsp; [**Email me →**](mailto:nitishhurduke@gmail.com) &nbsp; [Read my writing](https://medium.com/@nitishhurduke)
+[**Connect on LinkedIn  →**](https://www.linkedin.com/in/nitishhurduke/) &nbsp; [**Email me →**](mailto:nitishhurduke@gmail.com) &nbsp; [Read my writing](https://medium.com/@nitishhurduke) &nbsp; [GitHub](https://github.com/nitishhurduke)

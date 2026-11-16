@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title description">
   <title id="title">Change AI: from a described problem to a structured report and validation</title>
-  <desc id="description">Conceptual workflow. An end user describes a problem to the PR Draft Agent, which generates a formatted Windchill Problem Report. The PR Validator Agent checks drafted or existing reports against a Change Admin template and provides completeness and potential-duplicate analysis. Duplicate indications are not confirmed duplicates. Nitish contributed to both agents.</desc>
+  <desc id="description">Conceptual workflow for a production release. The PR Draft Agent generates a Windchill Problem Report in a reported 10-30 seconds. The PR Validator Agent analyzes completeness against an admin template and flags potential duplicates for human review. Nitish implemented the shared LLM layer for all three agents, configuration UI, Checkmarx and Black Duck CI checks, and benchmark evaluation using Python, MLflow, and Databricks.</desc>
   <defs>
     <linearGradient id="background" x2="1" y2="1">
       <stop stop-color="#0B1220"/><stop offset="1" stop-color="#19152D"/>
@@ -16,7 +16,7 @@
       @media (prefers-reduced-motion: reduce) { .flow, .scan { animation: none; } }
     </style>
   </defs>
-  <rect x="1" y="1" width="1118" height="458" rx="20" fill="url(#background)" stroke="#30344F"/>
+  <rect x="1" y="1" width="1118" height="518" rx="20" fill="url(#background)" stroke="#30344F"/>
   <text class="mono" x="32" y="36" font-size="12" letter-spacing="2" fill="#67E8F9">CHANGE AI / PROBLEM REPORTS</text>
   <text class="mono" x="1088" y="35" text-anchor="end" font-size="10" letter-spacing="1" fill="#AEB8CD">CONCEPTUAL WORKFLOW</text>
   <text x="32" y="79" font-size="30" font-weight="700" fill="#F1F5F9">Describe the problem. Structure it. Check it.</text>
@@ -34,7 +34,7 @@
   <rect class="scan" x="410" y="110" width="300" height="108" rx="14" pathLength="1000" fill="none" stroke="url(#accent)" stroke-width="2"/>
   <text class="mono" x="430" y="137" font-size="11" letter-spacing="1.5" fill="#9EC5D6">AGENT CONTRIBUTION / 01</text>
   <text x="430" y="171" font-size="25" font-weight="650" fill="#67E8F9">PR Draft Agent</text>
-  <text x="430" y="198" font-size="16" fill="#BAC8D9">Generate a formatted report</text>
+  <text x="430" y="198" font-size="16" fill="#BAC8D9">Reported draft time: 10-30 sec</text>
 
   <rect x="788" y="110" width="300" height="108" rx="14" fill="#211A32" stroke="#5C477B"/>
   <text class="mono" x="808" y="137" font-size="11" letter-spacing="1.5" fill="#C6B9DD">WINDCHILL</text>
@@ -56,7 +56,9 @@
   <text class="mono" x="808" y="292" font-size="11" letter-spacing="1.5" fill="#C6B9DD">VALIDATION OUTPUT</text>
   <text x="808" y="327" font-size="22" font-weight="650" fill="#F2EBFF">Completeness analysis</text>
   <text x="808" y="358" font-size="20" fill="#C4B5FD">Potential duplicates</text>
-  <text x="808" y="381" font-size="14" fill="#C4BED5">Indications, not confirmed matches</text>
+  <text x="808" y="381" font-size="14" fill="#C4BED5">Human review remains required</text>
   <path d="M32 417H1088" stroke="#30344F"/>
-  <text x="32" y="444" font-size="15" fill="#C4BED5">My contribution: helped build 2 of the 3 agents in the Change AI Extension.</text>
+  <text x="32" y="444" font-size="16" fill="#E7F7FC">Shared LLM layer for all 3 agents + configuration UI / production release</text>
+  <text x="32" y="472" font-size="15" fill="#C4BED5">Evaluation: Python, MLflow, Databricks / CI security: Checkmarx, Black Duck</text>
+  <text x="32" y="499" font-size="14" fill="#BAC8D9">WRS API investigation / Jira effort tracking / human-in-the-loop validation</text>
 </svg>
