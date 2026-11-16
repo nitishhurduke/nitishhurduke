@@ -1,0 +1,3 @@
+# Keep only the published resume PDF in version control.
+/assets/resume/*
+!/assets/resume/nitish-hurduke-resume.pdf

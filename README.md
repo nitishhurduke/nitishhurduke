@@ -1,10 +1,4 @@
-﻿<!-- Publish this file as README.md at the root of your GitHub profile repository.
-     Include all seven referenced SVGs from the assets folder at the same relative paths.
-     SVG artwork is self-contained; the greeting GIF is hosted externally.
-     SVG animations respect prefers-reduced-motion; the GIF does not.
-     Essential details remain in text.
-     Project graphics are conceptual, not deployment diagrams or live telemetry.
-     The sorting animation illustrates one swap, not a complete sort or benchmark. -->
+﻿<p align="left"> <img src="https://komarev.com/ghpvc/?username=nitishhurduke&label=Profile%20views&color=yellow&style=flat" alt="nitish-hurduke" /> </p>
 
 [![Nitish Hurduke: Strong backends. Thoughtful interfaces. 7.5+ years in web development.](./assets/nitish-engineering.svg)](https://portfolio.nitishhurduke.workers.dev/)
 
