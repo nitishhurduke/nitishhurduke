@@ -1,4 +1,4 @@
-﻿<p align="center">
+﻿<p align="left">
   <img src="https://komarev.com/ghpvc/?username=nitishhurduke&label=Profile%20views&color=blue&style=flat" alt="nitish-hurduke" />
 </p>
 
